@@ -3,10 +3,249 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rumaf Ingeneniera</title>
+    <title>RUMAF S.A.C. | Laboratorio de Suelos y Control de Calidad</title>
+    <!-- CSS Link -->
     <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome icons via CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <h1>Bienvenido a Rumaf Ingeneniera</h1>
+
+    <!-- Header / Nav -->
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-bold">RUMAF</span> <span class="logo-sub">S.A.C.</span>
+        </div>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <nav class="nav-links">
+            <a href="#inicio">Inicio</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#valores">Valores</a>
+            <a href="#contacto" class="btn-nav">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="badge-animated">Laboratorio de Suelos & Geotécnica</span>
+            <h1>Ingeniería, Consultoría y Calidad en Materiales</h1>
+            <p>Especialistas en la investigación, experimentación y asistencia técnica en el estudio de propiedades mecánicas de suelos, rocas y materiales de construcción.</p>
+            <div class="hero-buttons">
+                <a href="https://wa.me/51966924525?text=Hola%20RUMAF,%20deseo%20mayor%20información%20sobre%20sus%20servicios" target="_blank" class="btn-primary glow-effect">
+                    <i class="fa-brands fa-whatsapp"></i> Cotizar por WhatsApp
+                </a>
+                <a href="#servicios" class="btn-secondary">Ver Servicios</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ¿Quiénes Somos? / Nosotros -->
+    <section id="nosotros" class="section about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2>¿Quiénes Somos?</h2>
+                    <p class="lead">Brindamos servicios de ingeniería, consultoría y control de calidad para obras civiles en la especialidad de ingeniería geotécnica y estructuras.</p>
+                    <p>Contamos con un staff de profesionales altamente calificados y equipamiento e instrumentos modernos que satisfacen rigurosamente la normatividad vigente.</p>
+                    
+                    <div class="mv-cards">
+                        <div class="mv-card">
+                            <i class="fa-solid fa-bullseye card-icon"></i>
+                            <h3>Misión</h3>
+                            <p>Servicios de ingeniería, consultoría y materiales de construcción de primer nivel, brindando la mejor calidad, capacidad de respuesta, ética e innovación del mercado.</p>
+                        </div>
+                        <div class="mv-card">
+                            <i class="fa-solid fa-eye card-icon"></i>
+                            <h3>Visión</h3>
+                            <p>Consolidarnos como empresa líder en estudios de suelos y ensayos de laboratorio, utilizando las últimas tecnologías y ampliando continuamente nuestra cartera de servicios.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="section services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nuestros Servicios Especializados</h2>
+                <p>Ensayos de laboratorio y estudios geotécnicos con rigurosidad normativa.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Servicio 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-mountain"></i>
+                    </div>
+                    <h3>Mecánica de Suelos</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Estudio de Mecánica de Suelos (EMS)</li>
+                        <li><i class="fa-solid fa-check"></i> Excavación y relleno de calicatas</li>
+                        <li><i class="fa-solid fa-check"></i> Toma de muestras alteradas e inalteradas</li>
+                        <li><i class="fa-solid fa-check"></i> Análisis Granulométrico (SUCS / AASHTO)</li>
+                        <li><i class="fa-solid fa-check"></i> Límites de Atterberg y Humedad Natural</li>
+                        <li><i class="fa-solid fa-check"></i> Sulfatos, Cloruros y Sales solubles</li>
+                        <li><i class="fa-solid fa-check"></i> Ensayos CBR, Proctor y Densidad de campo</li>
+                    </ul>
+                </div>
+
+                <!-- Servicio 2 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-cubes"></i>
+                    </div>
+                    <h3>Concreto & Mezclas</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Diseño Teórico de Mezcla de Concreto</li>
+                        <li><i class="fa-solid fa-check"></i> Compresión de Núcleos de concreto</li>
+                        <li><i class="fa-solid fa-check"></i> Extracción de núcleos diamantados</li>
+                        <li><i class="fa-solid fa-check"></i> Ensayo de Asentamiento (Slump)</li>
+                        <li><i class="fa-solid fa-check"></i> Peso unitario y resistencia</li>
+                    </ul>
+                </div>
+
+                <!-- Servicio 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-layer-group"></i>
+                    </div>
+                    <h3>Ensayos en Agregados</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Granulometría, Humedad y Absorción</li>
+                        <li><i class="fa-solid fa-check"></i> Gravedad específica y Peso unitario</li>
+                        <li><i class="fa-solid fa-check"></i> Ensayo de Abrasión (Los Ángeles)</li>
+                        <li><i class="fa-solid fa-check"></i> Impurezas orgánicas y Equivalente de arena</li>
+                        <li><i class="fa-solid fa-check"></i> Estudio integral de Canteras</li>
+                    </ul>
+                </div>
+
+                <!-- Servicio 4 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-building"></i>
+                    </div>
+                    <h3>Albañilería</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Ensayo de unidades de albañilería</li>
+                        <li><i class="fa-solid fa-check"></i> Resistencia a la compresión</li>
+                        <li><i class="fa-solid fa-check"></i> Variación dimensional y Alabeo</li>
+                        <li><i class="fa-solid fa-check"></i> Absorción de ladrillos y bloques</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Valores y Metodología -->
+    <section id="valores" class="section values">
+        <div class="container">
+            <div class="section-header">
+                <h2>Valores y Metodología</h2>
+                <p>Nuestra gestión descentralizada optimiza los procesos operativos de cada proyecto.</p>
+            </div>
+            <div class="values-grid">
+                <div class="value-item"><i class="fa-solid fa-shield-halved"></i><span>Responsabilidad</span></div>
+                <div class="value-item"><i class="fa-solid fa-handshake"></i><span>Cooperación</span></div>
+                <div class="value-item"><i class="fa-solid fa-scale-balanced"></i><span>Integridad</span></div>
+                <div class="value-item"><i class="fa-solid fa-award"></i><span>Compromiso</span></div>
+                <div class="value-item"><i class="fa-solid fa-lightbulb"></i><span>Innovación</span></div>
+                <div class="value-item"><i class="fa-solid fa-star"></i><span>Calidad</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clientes Directos -->
+    <section class="section clients">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nuestros Clientes</h2>
+                <p>Empresas de prestigio confían en nuestros análisis de control de calidad.</p>
+            </div>
+            <div class="clients-list">
+                <div class="client-box">CORPORACIÓN V&V CONTRATISTAS GENERALES S.A.C</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto & Datos -->
+    <section id="contacto" class="section contact">
+        <div class="container">
+            <div class="contact-card">
+                <h2>Contáctanos hoy mismo</h2>
+                <p>Solicita asistencia técnica o cotización para tus estudios de mecánica de suelos y ensayos de laboratorio.</p>
+                
+                <div class="contact-details">
+                    <div class="c-detail">
+                        <i class="fa-solid fa-building"></i>
+                        <div>
+                            <strong>Razón Social</strong>
+                            <span>RUMAF INGENIERIA Y SERVICIOS GENERALES S.A.C.</span>
+                        </div>
+                    </div>
+                    <div class="c-detail">
+                        <i class="fa-solid fa-id-card"></i>
+                        <div>
+                            <strong>RUC</strong>
+                            <span>20611100249</span>
+                        </div>
+                    </div>
+                    <div class="c-detail">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <strong>Ubicación</strong>
+                            <span>Parcela 10 Predio Huabalito Valle Moche - Moche - Trujillo</span>
+                        </div>
+                    </div>
+                    <div class="c-detail">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <strong>Correo Electrónico</strong>
+                            <span>rumaf.ingenieria@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="c-detail">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <strong>Teléfonos de Atención</strong>
+                            <span>966-924-525 / 955-201-333</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-action">
+                    <a href="https://wa.me/51966924525?text=Hola%20RUMAF,%20quisiera%20solicitar%20un%20presupuesto" target="_blank" class="btn-whatsapp-large">
+                        <i class="fa-brands fa-whatsapp"></i> Hablar con un especialista por WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 RUMAF S.A.C. - Todos los derechos reservados. | Laboratorio de Suelos, Concreto y Agregados.</p>
+        </div>
+    </footer>
+
+    <!-- Floting WhatsApp Button -->
+    <a href="https://wa.me/51966924525?text=Hola%20RUMAF,%20necesito%20atención%20comercial" class="whatsapp-float" target="_blank" aria-label="Contacto WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
 </body>
 </html>
